@@ -59,7 +59,7 @@ dependencies {
     testRuntime "org.seleniumhq.selenium:selenium-htmlunit-driver:2.47.1"
     testRuntime "net.sourceforge.htmlunit:htmlunit:2.18"
 
-    compile 'mysql:mysql-connector-java:5.1.47'
+    runtime 'mysql:mysql-connector-java:5.1.47'
     compile 'org.hibernate:hibernate-ehcache:5.1.5.Final'
 }
 
