@@ -14,8 +14,8 @@ class FooSpec extends Specification {
     def cleanup() {
     }
 
-    void "test something"() {
-        expect:"fix me"
+    void "test empty list as inList parameter with mysql"() {
+        expect:"empty list is returned"
             [] == Foo.findAllByIdInList([])
     }
 }
